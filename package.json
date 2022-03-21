@@ -1,0 +1,24 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "MigracionCss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoacevedo1/CoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoacevedo1/CoderHouse/issues"
+  },
+  "homepage": "https://github.com/nicoacevedo1/CoderHouse#readme",
+  "dependencies": {
+    "i": "^0.3.7",
+    "node-sass": "^7.0.1"
+  }
+}
