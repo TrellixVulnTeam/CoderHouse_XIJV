@@ -33,3 +33,15 @@ li, a{
     text-decoration: none
     ;
 }
+@media (max-width: 768px) {
+.nav__links{
+    display: none;
+}
+.logo{
+    display: none;
+}
+}
+@media (min-width: 768px) { 
+.bg-light {visibility: hidden;
+}
+}
